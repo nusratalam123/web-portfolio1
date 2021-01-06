@@ -69,3 +69,56 @@ border-radius: 10px;
     margin-left: 5%;
 padding-left: 2%;
 }
+
+
+    #bor{
+        border:1px solid purple;
+        border-radius: 50px;
+        margin: px10 20px;
+        padding: 10px;
+        width: 30%;
+        display: inline-block;
+        background-color: seashell;
+        font-style: italic;
+        text-align:center;
+    }
+    #ex{
+text-align: left;
+
+    }
+    center img{
+        width: 80%git;
+    }
+    .work-inquiry{
+        margin-top: 60px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        position: relative;
+        width: 35%;
+        margin: 0 auto;
+      }
+    .container img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+      }
+    .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
