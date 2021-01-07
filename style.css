@@ -23,6 +23,8 @@ color: tomato;
 .top-banner{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
+    height: 400px;
+    padding-bottom: 50px;
 }
 section{
     height:400px;
@@ -37,58 +39,39 @@ section{
     font-weight: 700px;
 
 }
-.dream{
-    background-image: url("image/dream-bg.png");
-    background-repeat: none;
-    background-position:right ;
-}
 .boxes{
-    width: 80%;
-    margin:auto
+    padding-bottom: 15%;
+    background-color: seashell;
+    weight:100% ;
+    height: 300px;
 }
 .box{
+    width: 80%;
     border: 1px solid white;
-margin: 5px;
+margin: auto;
 border-radius: 10px;
-float: right;
     display: inline-block;
 
 }
-.box img{
-border: 1px solid white;
-margin: 5px;
-border-radius: 10px;
+.image{ 
+    border-radius: 5px;
+    background-color: snow;
+    height: 60%;
     width: 20%;
-    height:30%;
-    float: right;
-    display: inline-block;
+    padding: 10px;
+    margin: 70px;
+    float: left;
 
 }
-.pic1 img{
-    width:80%;
-    margin-left: 5%;
-padding-left: 2%;
+.image img{
+    width:100%;
+    margin-left: 10%;
+padding-left: 5%;
 }
-
-
-    #bor{
-        border:1px solid purple;
-        border-radius: 50px;
-        margin: px10 20px;
-        padding: 10px;
-        width: 30%;
-        display: inline-block;
-        background-color: seashell;
-        font-style: italic;
-        text-align:center;
-    }
-    #ex{
-text-align: left;
-
-    }
-    center img{
-        width: 80%git;
-    }
+#project{
+    text-align: center;
+    width: 100%;
+}
     .work-inquiry{
         margin-top: 60px;
     }
@@ -120,5 +103,17 @@ text-align: left;
         border: none;
         cursor: pointer;
         border-radius: 5px;
+      }
+      .new{
+          border: steelblue;
+          border-radius: 10px;
+        text-align: center;
+
+      }
+      .new h3{
+          font-size: 50px;
+      }
+      #use{
+          padding-bottom: 10px;
       }
 
